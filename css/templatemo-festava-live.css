@@ -231,9 +231,10 @@ strong {
 /*---------------------------------------
   SECTION               
 -----------------------------------------*/
+/* aqui se configura el espacio del about */
 .section-padding {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 250px;
 }
 
 .section-bg {
@@ -532,56 +533,35 @@ strong {
   position: relative;
 }
 
-.about-image {
-  border-radius: var(--border-radius-medium);
-  display: block;
-}
 
-.about-text-wrap {
-  position: relative;
-}
-
-.about-text-icon {
-  background: var(--primary-color);
-  border-radius: 100%;
-  font-size: var(--h3-font-size);
-  width: 70px;
-  height: 70px;
-  line-height: 70px;
-  text-align: center;
-}
-
-.about-text-info {
-  backdrop-filter: blur(5px) saturate(180%);
-  -webkit-backdrop-filter: blur(5px) saturate(180%);
-  background-color: rgba(255, 255, 255, 0.75);
-  border: solid 1px red;
-  border-radius: var(--border-radius-medium);
-  border: 1px solid rgba(209, 213, 219, 0.3);
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin: 20px;
-  padding: 35px;
-  
-}
 #texto{
-  border:1px solid black;
+  /* border:1px s olid black; */
   width: 100%;
+height: 300px;
+text-align: center
 }
 /************************************************************************/
+.carrusel2{
+  width: 100vw;
+  position: relative;
+  left: -500px;
+  /* border: solid 10px red; */
+  top: 100px;
+}
 .carrosel {
-  -webkit-perspective: 250px;
+  /* -webkit-perspective: 250px;
   -moz-perspective: 250px;
-  /* width: 40vw;
-  height: 200px; */
-  top: 10vw;  
-  left: 50px;
+  width: 150px;
+  height: 150px;
+  bottom: 300px;
+  left: 65px;
   position: relative;
   margin: 0 auto;
   display: block;
-  border-radius: var(--border-radius-medium);
+  border-radius: var(--border-radius-medium); */
+  /* border: 5px solid black; */
+  height: 200px;
+
 }
 
 @-webkit-keyframes efeitoCarrosel {
@@ -1097,10 +1077,6 @@ strong {
     font-size: 18px;
   }
 
-  .section-padding {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
   
   .navbar {
     background-color: var(--dark-color);
@@ -1173,3 +1149,16 @@ strong {
   }
 }
 
+  /* Animación para el desplazamiento */
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+  /* Estilo para el texto en la pestaña */
+  title {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    animation: marquee 6s linear infinite;
+  }
