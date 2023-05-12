@@ -555,6 +555,7 @@ strong {
   backdrop-filter: blur(5px) saturate(180%);
   -webkit-backdrop-filter: blur(5px) saturate(180%);
   background-color: rgba(255, 255, 255, 0.75);
+  border: solid 1px red;
   border-radius: var(--border-radius-medium);
   border: 1px solid rgba(209, 213, 219, 0.3);
   position: absolute;
@@ -563,15 +564,20 @@ strong {
   left: 0;
   margin: 20px;
   padding: 35px;
+  
+}
+#texto{
+  border:1px solid black;
+  width: 100%;
 }
 /************************************************************************/
 .carrosel {
   -webkit-perspective: 250px;
   -moz-perspective: 250px;
-  width: 40vw;
-  height: 200px;
-  bottom: 300px;
-  left: 65px;
+  /* width: 40vw;
+  height: 200px; */
+  top: 10vw;  
+  left: 50px;
   position: relative;
   margin: 0 auto;
   display: block;
@@ -617,7 +623,7 @@ strong {
 }
 
 .caixa__card {
-  width: 15vw;
+  width: 35vw;
   height: 100px;
   position: absolute;
   display: flex;
