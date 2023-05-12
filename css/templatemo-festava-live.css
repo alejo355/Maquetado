@@ -387,7 +387,7 @@ strong {
 }
 
 .sticky-wrapper.is-sticky .navbar {
-  background-color: var(--dark-color);
+  background-color: #292958;
 }
 
 .navbar {
@@ -681,42 +681,6 @@ text-align: center
 
 
 /*---------------------------------------
-  TICKET               
------------------------------------------*/
-.ticket-section {
-  background-image: url('../images/nicholas-green-unsplash-blur.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  padding-top: 130px;
-}
-
-.ticket-form {
-  background: var(--white-color);
-  border-radius: var(--border-radius-medium);
-  padding: 50px;
-}
-
-.ticket-form .form-check {
-  position: relative;
-  min-height: 52px;
-  padding-left: 35px;
-}
-
-.ticket-form .form-check .form-check-label {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: 12px;
-  margin-left: 35px;
-  width: 100%;
-  height: 100%;
-}
-
-
-/*---------------------------------------
   ARTISTS              
 -----------------------------------------*/
 .artists-thumb {
@@ -752,9 +716,18 @@ text-align: center
   left: 0;
   opacity: 0;
 }
+.amarillo{
+  color:#edc36a  ; 
+}
+.azul {
+  color: #292958 ;
+}
+.rojo{
+  color: #c62f33;
+}
 
 .artists-hover p strong {
-  color: var(--white-color);
+  color: #292958  ;
   display: inline-block;
   min-width: 180px;
   margin-right: 20px;
