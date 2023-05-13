@@ -525,6 +525,9 @@ strong {
 /*---------------------------------------
   ABOUT              
 -----------------------------------------*/
+/*---------------------------------------
+  ABOUT              
+-----------------------------------------*/
 .about-section {
   background-image: url('../images/edward-unsplash-blur.jpg');
   background-color: #704010;
@@ -540,7 +543,7 @@ strong {
 height: 300px;
 text-align: center
 }
-/************************************************************************/
+/************************/
 .carrusel2{
   width: 100vw;
   position: relative;
@@ -1178,4 +1181,9 @@ text-align: center
   }
 }
 
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
+}
