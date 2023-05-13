@@ -365,7 +365,7 @@ strong {
 
 
 /*---------------------------------------
-  SITE HEADER              
+  HEADER del Sitio
 -----------------------------------------*/
 .site-header {
   background-color: var(--primary-color);
@@ -375,7 +375,7 @@ strong {
 
 
 /*---------------------------------------
-  NAVIGATION              
+  Navegacion              
 -----------------------------------------*/
 .sticky-wrapper {
   position: absolute;
@@ -522,7 +522,7 @@ strong {
 
 
 /*---------------------------------------
-  ABOUT              
+  Acerca de             
 -----------------------------------------*/
 .about-section {
   background-image: url('../images/edward-unsplash-blur.jpg');
