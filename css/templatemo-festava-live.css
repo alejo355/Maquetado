@@ -800,7 +800,15 @@ text-align: center
 }
 
 .schedule-table .pop-background-image {
-  background-image: url('../images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg');
+  background-image: url('../images/lanzamiento.jpg');
+}
+
+.schedule-table .impo-background-image{
+  background-image: url('../images/imposicion.jpg');
+}
+
+.schedule-table .festival-background-image{
+  background-image: url('../images/Canción_Fiestas.jpeg');
 }
 
 .schedule-table .rock-background-image {
@@ -810,6 +818,11 @@ text-align: center
 .schedule-table .country-background-image {
   background-image: url('../images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg');
 }
+
+.schedule-table .encuentro-background-image {
+  background-image: url('../images/encuentro_municipal.jpeg');
+}
+
 
 .table-background-image-wrap {
   background-repeat: no-repeat;
@@ -927,20 +940,62 @@ text-align: center
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  background-color: var(--dark-color);
+  background-color: #292958;
   position: relative;
   overflow: hidden;
   padding-bottom: 30px;
 }
 
 .site-footer-top {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   background-image: url('../images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg');
   background-repeat: no-repeat;
   margin-bottom: 70px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.titulo{
+  color:  #292958;  
+  text-shadow:
+    -1px -1px 0 white, 
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white; 
+    position: absolute;
+}
+.borde{
+  color:  #c62f33 ;
+  animation: wave 1s ease-in-out infinite;
+}
+@keyframes wave {
+  0%, 100% {
+    clip-path: polygon(
+      0% 47%,
+      10% 48%,
+      33% 54%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(0% 60%,
+    15% 65%,
+    34% 66%,
+    51% 62%,
+    67% 50%,
+    84% 45%,
+    100% 46%,
+    100% 100%,
+    0% 100%
+    );
+  }
+}
+
 
 .site-footer-bottom {
   border-top: 1px solid #1f1c1c;
@@ -955,6 +1010,7 @@ text-align: center
 .copyright-text {
   color: var(--white-color);
 }
+
 
 .site-footer-links {
   padding-left: 0;
