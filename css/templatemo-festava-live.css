@@ -820,7 +820,15 @@ strong {
 }
 
 .schedule-table .pop-background-image {
-  background-image: url('../images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg');
+  background-image: url('../images/lanzamiento.jpg');
+}
+
+.schedule-table .impo-background-image{
+  background-image: url('../images/imposicion.jpg');
+}
+
+.schedule-table .festival-background-image{
+  background-image: url('../images/Canción_Fiestas.jpeg');
 }
 
 .schedule-table .rock-background-image {
@@ -830,6 +838,11 @@ strong {
 .schedule-table .country-background-image {
   background-image: url('../images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg');
 }
+
+.schedule-table .encuentro-background-image {
+  background-image: url('../images/encuentro_municipal.jpeg');
+}
+
 
 .table-background-image-wrap {
   background-repeat: no-repeat;
